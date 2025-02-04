@@ -101,7 +101,7 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-[#003f42] p-6">
       <div className="max-w-7xl mx-auto">
-        {/* Greeting Section */}
+        {/* Greeting Sectiondashdklashdlauhsdlask */}
         <div className="bg-[#005f63] rounded-lg p-6 mb-6 shadow-lg border border-[#00d1c1]/30">
           <h1 className="text-3xl font-bold text-[#00d1c1] mb-2">
             {getGreeting()}, {session?.user?.name?.split(" ")[0] || "User"}!
@@ -162,7 +162,7 @@ export default function Dashboard() {
                 <Search className="mx-auto text-[#00d1c1] h-16 w-16 mb-4" />
                 <h2 className="text-2xl font-bold text-[#00b8d4] mb-2">No results found</h2>
                 <p className="text-[#00a9b0]">Try adjusting your search term</p>
-              </CardContent>
+              </CardContent> 
             </Card>
           ) : (
             // Uploads Grid
